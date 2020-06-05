@@ -556,7 +556,7 @@ log: ".$_POST['dir']."/ngrok.log \n
 	} else if ($_POST['version'] == '1.7.10') {
 		copy('serverbase/spigot-1.7.10-SNAPSHOT-b1657.jar',$_POST['dir'].'/spigot-1.7.10.jar');
 	} else if ($_POST['version'] == '1.15.2') {
-		copy('serverbase/spigot-1.15.2.jar', $_POST['dir'].'/spigot-1.15.2.jar');
+		copy('serverbase/spigot-1.15.2.jar',$_POST['dir'].'/spigot-1.15.2.jar');
 	} else if ($_POST['version'] == 'BC') {
 		copy('serverbase/BungeeCord.jar',$_POST['dir'].'/BungeeCord.jar');
 	}
